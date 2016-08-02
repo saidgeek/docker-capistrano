@@ -2,7 +2,7 @@
 
 eval $(ssh-agent -s)
 
-$DIR=/root/.ssh
+DIR=/root/.ssh
 
 if [ -d "$DIR" ]
 	then 
